@@ -6,6 +6,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+
 class ApiConfig {
     companion object {
         fun getApiService(token: String): IApiService {
@@ -16,6 +17,7 @@ class ApiConfig {
             }
             val authInterceptor = Interceptor { chain ->
                 val req = chain.request()
+
                 val requestHeaders = req.newBuilder()
                     .addHeader("Authorization", "Bearer $token")
                     .build()

@@ -10,18 +10,22 @@ import com.ifs21033.lostandfound.data.repository.AuthRepository
 import com.ifs21033.lostandfound.data.repository.UserRepository
 import com.ifs21033.lostandfound.presentation.ViewModelFactory
 import kotlinx.coroutines.launch
+
 class ProfileViewModel(
     private val authRepository: AuthRepository,
     private val userRepository: UserRepository
 ) : ViewModel() {
+
     fun logout() {
         viewModelScope.launch {
             authRepository.logout()
         }
     }
+
     fun getMe(): LiveData<MyResult<DataUserResponse>> {
         return userRepository.getMe().asLiveData()
     }
+
     companion object {
         @Volatile
         private var INSTANCE: ProfileViewModel? = null

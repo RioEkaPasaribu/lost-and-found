@@ -12,10 +12,12 @@ import com.ifs21033.lostandfound.presentation.ViewModelFactory
 class LoginViewModel(
     private val authRepository: AuthRepository,
 ) : ViewModel() {
+
     fun login(email: String, password: String):
             LiveData<MyResult<DataLoginResponse>> {
         return authRepository.login(email, password).asLiveData()
     }
+
     suspend fun saveSession(user: UserModel): LiveData<UserModel> {
         return authRepository.saveSession(user).asLiveData()
     }
