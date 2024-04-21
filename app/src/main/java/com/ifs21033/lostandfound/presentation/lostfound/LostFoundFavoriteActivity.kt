@@ -12,7 +12,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ifs21033.lostandfound.R
-import com.ifs21033.lostandfound.adapter.LostFoundsAdapter
+import com.ifs21033.lostandfound.adapter.LostFoundAdapter
 import com.ifs21033.lostandfound.data.local.entity.DelcomLostFoundEntity
 import com.ifs21033.lostandfound.data.remote.MyResult
 import com.ifs21033.lostandfound.data.remote.response.LostFoundsItemResponse
@@ -87,11 +87,11 @@ class LostFoundFavoriteActivity : AppCompatActivity() {
         } else {
             showComponentNotEmpty(true)
             showEmptyError(false)
-            val adapter = LostFoundsAdapter()
+            val adapter = LostFoundAdapter()
             adapter.submitOriginalList(entitiesToResponses(lostfounds))
             binding.rvLostFoundFavoriteLostFounds.adapter = adapter
             adapter.setOnItemClickCallback(
-                object : LostFoundsAdapter.OnItemClickCallback {
+                object : LostFoundAdapter.OnItemClickCallback {
                     override fun onCheckedChangeListener(
                         lostfound: LostFoundsItemResponse,
                         isChecked: Boolean

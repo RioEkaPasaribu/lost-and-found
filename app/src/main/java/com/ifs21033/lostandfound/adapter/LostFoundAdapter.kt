@@ -12,8 +12,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.ifs21033.lostandfound.data.remote.response.LostFoundsItemResponse
 import com.ifs21033.lostandfound.databinding.ItemRowLostfoundBinding
 
-class LostFoundsAdapter :
-    ListAdapter<LostFoundsItemResponse, LostFoundsAdapter.MyViewHolder>(DIFF_CALLBACK) {
+class LostFoundAdapter :
+    ListAdapter<LostFoundsItemResponse, LostFoundAdapter.MyViewHolder>(DIFF_CALLBACK) {
 
     private lateinit var onItemClickCallback: OnItemClickCallback
     private var originalData = mutableListOf<LostFoundsItemResponse>()
