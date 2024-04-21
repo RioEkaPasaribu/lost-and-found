@@ -8,9 +8,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/ic_logo"
+        android:icon="@drawable/lostandfound"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_logo"
+        android:roundIcon="@drawable/lostandfound"
         android:supportsRtl="true"
         android:theme="@style/Theme.LostAndFound"
         tools:targetApi="31">
