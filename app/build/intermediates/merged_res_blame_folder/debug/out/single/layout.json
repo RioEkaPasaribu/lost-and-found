@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.ifs21033.lostandfound.app-mergeDebugResources-43:/layout/item_row_lostfound.xml",
+        "source": "com.ifs21033.lostandfound.app-main-46:/layout/item_row_lostfound.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-mergeDebugResources-43:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-main-46:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-mergeDebugResources-43:\\layout\\activity_lost_found_manage.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-main-46:\\layout\\activity_lost_found_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-mergeDebugResources-43:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-main-46:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-mergeDebugResources-43:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-main-46:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-mergeDebugResources-43:\\layout\\activity_lost_found_favorite.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-main-46:\\layout\\activity_lost_found_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-mergeDebugResources-43:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-main-46:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-mergeDebugResources-43:\\layout\\item_row_lostfound.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-main-46:\\layout\\item_row_lostfound.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-mergeDebugResources-43:\\layout\\activity_lost_found_detail.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.2\\com.ifs21033.lostandfound.app-main-46:\\layout\\activity_lost_found_detail.xml"
+    }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status">
+        <item>lost</item>
+        <item>found</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="main">#D6E4EC</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Lost And Found</string>
+    <style name="Base.Theme.LostAndFound" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.LostAndFound" parent="Base.Theme.LostAndFound"/>
+</resources>
